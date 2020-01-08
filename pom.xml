@@ -63,7 +63,7 @@
 						<entrypoint>bash</entrypoint>
 						<args>
 							<arg>-c</arg>
-							<arg>bash /wait.sh configuration:8088 &amp;&amp; java -cp /app/resources:/app/classes:/app/libs/* pl.edu.agh.distributedsystems.discovery.DiscoveryApplication</arg>
+							<arg>bash /wait.sh configuration:8080 &amp;&amp; java -cp /app/resources:/app/classes:/app/libs/* pl.edu.agh.distributedsystems.discovery.DiscoveryApplication</arg>
 						</args>
 					</container>
 				</configuration>
